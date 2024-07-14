@@ -1,0 +1,111 @@
+*{
+    margin: 0;padding: 0;
+}
+body{
+    width: 100vw;
+    height: 100vh;
+    background-image: url("https://images.freeimages.com/images/large-previews/e62/clear-sky-1363026.jpg?fmt=webp&w=500");
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main{
+    width: 280px;
+    height: 450px;
+    border: 2px solid black;
+     background-color: rgba(0,0,0,0.7);
+     background-image: url("");
+    text-align: center;
+    border-radius: 3mm;
+    position: relative;
+    color: white;
+}
+.container{
+    visibility:visible;
+   
+}
+.image img{
+    width: 130px;
+    margin-top: 10px;
+}
+.search{
+
+    width: 230px;
+    padding: 5px;
+    border-radius: 3mm;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    display: flex;
+    gap: 5px;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid white;
+    background-color: white;
+}
+.search svg{
+    width: 15px;
+    
+}
+.search button{
+    border: none;
+    width: 40px;
+    height: 30px;
+    border-radius: 15px;
+}
+.input{
+    border: none;
+    padding: 15px 0px 15px 0px;
+    width: 150px;
+    outline: none;
+    font-size: 15px;
+   font-weight: 600;
+}
+
+
+.temp{
+    margin-top: 20px;
+    font-size: 50px;
+    font-weight: 900;
+    display: flex;
+   justify-content: center;
+}
+.temp span{
+    font-size: 20px;
+    
+}
+svg{
+    width: 25px;
+}
+.info{
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    margin-top: 30px;
+    justify-content: space-between;
+}
+.humidity , .wind{
+    display: flex;
+    gap: 10px;
+}
+
+.info-wind ,.info-humidity{
+    text-align: start;
+
+}
+.error{
+    position: absolute;
+    top: 100px;
+    visibility: hidden;
+}
+.error img{
+      border-radius: 100px;
+}
+.error div{
+    margin-top: 10px;
+    font-size: 30px;
+    font-weight: 900;
+}
